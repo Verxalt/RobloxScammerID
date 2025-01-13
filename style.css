@@ -1,0 +1,155 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body #stkform {
+    width: 300px;
+    height: auto;
+    background-color: rgb(0,0,0,.5);
+    backdrop-filter: blur(2px);
+    color: white;
+    border-radius: 10px;
+    padding: 30px 15px 15px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+body #stkform h1 {
+    font-size: 36px;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ef0031;
+}
+
+body #stkform span {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+body #stkform span a {
+    color: #ef0031;
+    text-decoration: none;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    background-color: black;
+}
+
+body #stkform label {
+    margin-top: 10px;
+    font-size: 13px;
+    
+}
+
+body #stkform input {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .5s;
+}
+
+body #stkform input:hover {
+    border: 1px solid #ef0031;
+}
+
+body #stkform input::placeholder {
+    margin-left: 5px;
+    position: absolute;
+}
+
+body #stkform button {
+    margin-top: 30px;
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef0031;
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+    transition: .5s;
+}
+
+body #stkform button:hover {
+    background-color: white;
+    color: #ef0031;
+}
+
+#stkform #blank1 {
+    margin-top: 30px;
+    padding: 2px;
+    width: auto;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #ef0031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+#stkform #blank2 {
+    width: auto;
+    color: white;
+    padding: 2px;
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: none;
+    background-color: #ef0031;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+@media(min-width: 768px){
+    body #stkform {
+        width: auto;
+    }
+    body #isiform {
+        width: 560px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #isiform .a {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    #isiform .b {
+        width: 50%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+}
